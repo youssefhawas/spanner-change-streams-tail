@@ -27,7 +27,7 @@ import (
 	"time"
 
 	"cloud.google.com/go/spanner"
-	"github.com/cloudspannerecosystem/spanner-change-streams-tail/changestreams"
+	"github.com/youssefhawas/spanner-change-streams-tail/changestreams"
 )
 
 func usage() {

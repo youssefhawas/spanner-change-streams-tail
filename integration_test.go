@@ -26,9 +26,9 @@ import (
 	"time"
 
 	"cloud.google.com/go/spanner"
-	"github.com/cloudspannerecosystem/spanner-change-streams-tail/changestreams"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
+	"github.com/youssefhawas/spanner-change-streams-tail/changestreams"
 	"google.golang.org/api/option"
 
 	adminapi "cloud.google.com/go/spanner/admin/database/apiv1"

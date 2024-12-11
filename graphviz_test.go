@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudspannerecosystem/spanner-change-streams-tail/changestreams"
 	"github.com/google/go-cmp/cmp"
+	"github.com/youssefhawas/spanner-change-streams-tail/changestreams"
 )
 
 func TestPartitionVisualizer(t *testing.T) {
